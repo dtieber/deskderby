@@ -1,3 +1,7 @@
+application {
+  mainClass.set("com.dd.App")
+}
+
 dependencies {
   implementation("org.springframework.boot:spring-boot-starter-web:3.2.5")
   testImplementation("org.junit.jupiter:junit-jupiter:5.10.1")
