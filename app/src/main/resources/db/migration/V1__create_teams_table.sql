@@ -1,0 +1,6 @@
+CREATE TABLE teams
+(
+  id   SERIAL,
+  name VARCHAR(200) NOT NULL UNIQUE,
+  PRIMARY KEY (id)
+);
