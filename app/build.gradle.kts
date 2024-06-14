@@ -5,6 +5,7 @@ application {
 dependencies {
   implementation("org.flywaydb:flyway-core:10.15.0")
   implementation("org.flywaydb:flyway-database-postgresql:10.15.0")
+  implementation("org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.3")
   implementation("org.postgresql:postgresql:42.6.0")
   implementation("org.springframework.boot:spring-boot-starter-web:3.2.5")
   testImplementation("org.junit.jupiter:junit-jupiter:5.10.1")
